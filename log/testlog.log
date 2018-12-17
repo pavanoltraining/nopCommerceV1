@@ -242,3 +242,17 @@
 2018-12-17 12:09:25,484 - ecommerce -INFO - User name is provided
 2018-12-17 12:09:25,584 - ecommerce -INFO - password is provided
 2018-12-17 12:09:31,973 - ecommerce -INFO - providing customer details....
+2018-12-17 12:15:48,696 - ecommerce -INFO - User name is provided
+2018-12-17 12:15:48,779 - ecommerce -INFO - password is provided
+2018-12-17 12:15:53,121 - ecommerce -INFO - providing customer details....
+2018-12-17 12:15:59,917 - ecommerce -INFO - Providing email
+2018-12-17 12:16:00,129 - ecommerce -INFO - Providing password
+2018-12-17 12:16:00,237 - ecommerce -INFO - Providing Customer roles
+2018-12-17 12:16:03,704 - ecommerce -INFO - Selecting vendor
+2018-12-17 12:16:03,857 - ecommerce -INFO - Selecting gender
+2018-12-17 12:16:03,948 - ecommerce -INFO - Providing first name and last name
+2018-12-17 12:16:04,128 - ecommerce -INFO - Providing dob
+2018-12-17 12:16:04,241 - ecommerce -INFO - Providing company name and admin content
+2018-12-17 12:16:04,515 - ecommerce -INFO - clicking on save
+2018-12-17 12:16:06,154 - ecommerce -INFO - validation started....
+2018-12-17 12:16:06,345 - ecommerce -INFO - test case passed....

@@ -28,18 +28,15 @@ public class TC_AddCustomerTest_003 extends BaseClass
 				
 		logger.info("providing customer details....");
 		
-		Thread.sleep(3000);
-		
 		AddcustomerPage addcust=new AddcustomerPage(driver);
 		
 		addcust.clickOnCustomersMenu();
 		addcust.clickOnCustomersMenuItem();
 		
+		Thread.sleep(3000);
 		
 		addcust.clickOnAddnew();
-		
-		
-		
+				
 		String email=randomestring()+"@gmail.com";
 		
 		logger.info("Providing email");
