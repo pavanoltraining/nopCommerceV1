@@ -79,6 +79,8 @@ public class AddcustomerPage {
 			ldriver.findElement(txtcustomerRoles).click();
 						
 			WebElement listitem;
+			
+			Thread.sleep(3000);
 						
 			if(role.equals("Administrators"))
 			{
