@@ -44,7 +44,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		
 		addcust.setPassword("test123");
 		
-		//addcust.setCustomerRoles("Guest");
+		addcust.setCustomerRoles("Guest");
 		//addcust.setCustomerRoles("Administrators");
 		
 		addcust.setManagerOfVendor("Vendor 2");

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-15T07:25:15Z" name="nopcommerceV1" finished-at="2018-12-15T07:26:50Z" duration-ms="95109">
+  <suite started-at="2018-12-17T06:20:18Z" name="nopcommerceV1" finished-at="2018-12-17T06:20:53Z" duration-ms="35128">
     <groups>
     </groups>
-    <test started-at="2018-12-15T07:25:15Z" name="nopcommerceTest1" finished-at="2018-12-15T07:26:50Z" duration-ms="95109">
+    <test started-at="2018-12-17T06:20:18Z" name="nopcommerceTest1" finished-at="2018-12-17T06:20:53Z" duration-ms="35128">
       <class name="com.nopcommerce.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@10e31a9a]" started-at="2018-12-15T07:25:15Z" name="setup" finished-at="2018-12-15T07:25:19Z" duration-ms="4099" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@10e31a9a]" started-at="2018-12-17T06:20:18Z" name="setup" finished-at="2018-12-17T06:20:21Z" duration-ms="2596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@10e31a9a]" started-at="2018-12-15T07:25:19Z" name="loginTest" finished-at="2018-12-15T07:26:01Z" duration-ms="41991" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@10e31a9a]" started-at="2018-12-17T06:20:21Z" name="loginTest" finished-at="2018-12-17T06:20:34Z" duration-ms="13212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@10e31a9a]" started-at="2018-12-15T07:26:02Z" name="tearDown" finished-at="2018-12-15T07:26:02Z" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@10e31a9a]" started-at="2018-12-17T06:20:34Z" name="tearDown" finished-at="2018-12-17T06:20:35Z" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
       <class name="com.nopcommerce.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@131774fe]" started-at="2018-12-15T07:26:02Z" name="setup" finished-at="2018-12-15T07:26:04Z" duration-ms="2068" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@131774fe]" started-at="2018-12-17T06:20:35Z" name="setup" finished-at="2018-12-17T06:20:37Z" duration-ms="2023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@131774fe]" started-at="2018-12-15T07:26:04Z" name="addNewCustomer" finished-at="2018-12-15T07:26:49Z" duration-ms="45049" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@131774fe]" started-at="2018-12-17T06:20:37Z" name="addNewCustomer" finished-at="2018-12-17T06:20:52Z" duration-ms="15692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@131774fe]" started-at="2018-12-15T07:26:49Z" name="tearDown" finished-at="2018-12-15T07:26:50Z" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@131774fe]" started-at="2018-12-17T06:20:52Z" name="tearDown" finished-at="2018-12-17T06:20:53Z" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

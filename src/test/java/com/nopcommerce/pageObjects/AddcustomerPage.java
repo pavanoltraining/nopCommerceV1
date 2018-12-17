@@ -72,25 +72,32 @@ public class AddcustomerPage {
 	}
 	
 	
-	/*public void setCustomerRoles(String role) 
+	public void setCustomerRoles(String role) 
 		{
 			ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span[2]")).click();
 		
 			ldriver.findElement(txtcustomerRoles).click();
 						
 			WebElement listitem;
-			
-			switch(role)
+						
+			if(role.equals("Administrators"))
 			{
-			case "Administrators":
-					listitem=ldriver.findElement(lstitemAdministrators); break;
-			case "Guests":
-					listitem=ldriver.findElement(lstitemGuests); break;
-			case "Registered":
-				listitem=ldriver.findElement(lstitemRegistered); break;
-			case "Vendors":
-				listitem=ldriver.findElement(lstitemVendors); break;
-			default:
+				listitem=ldriver.findElement(lstitemAdministrators); 
+			}
+			else if(role.equals("Guests"))
+			{
+				listitem=ldriver.findElement(lstitemGuests);
+			}
+			else if(role.equals("Registered"))
+			{
+				listitem=ldriver.findElement(lstitemRegistered);
+			}
+			else if(role.equals("Vendors"))
+			{
+				listitem=ldriver.findElement(lstitemVendors);
+			}
+			else
+			{
 				listitem=ldriver.findElement(lstitemGuests);
 			}
 						
@@ -99,7 +106,7 @@ public class AddcustomerPage {
 			JavascriptExecutor js = (JavascriptExecutor)ldriver;
 			js.executeScript("arguments[0].click();", listitem);
 			
-	}*/
+	}
 
 	public void setManagerOfVendor(String value)
 	{
