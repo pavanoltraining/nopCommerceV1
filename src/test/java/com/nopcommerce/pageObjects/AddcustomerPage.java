@@ -72,7 +72,7 @@ public class AddcustomerPage {
 	}
 	
 	
-	public void setCustomerRoles(String role) 
+	public void setCustomerRoles(String role) throws InterruptedException 
 		{
 			ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span[2]")).click();
 		
@@ -101,7 +101,8 @@ public class AddcustomerPage {
 				listitem=ldriver.findElement(lstitemGuests);
 			}
 						
-			//listitem.click();
+			listitem.click();
+			Thread.sleep(3000);
 			
 			JavascriptExecutor js = (JavascriptExecutor)ldriver;
 			js.executeScript("arguments[0].click();", listitem);

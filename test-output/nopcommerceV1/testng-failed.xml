@@ -7,13 +7,13 @@
   <test thread-count="5" name="nopcommerceTest1(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.testCases.TC_LoginDDT_002">
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTest_003">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest" invocation-numbers="1 2 3"/>
+          <include name="addNewCustomer"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.TC_LoginDDT_002 -->
+      </class> <!-- com.nopcommerce.testCases.TC_AddCustomerTest_003 -->
     </classes>
   </test> <!-- nopcommerceTest1(failed) -->
 </suite> <!-- Failed suite [nopcommerceV1] -->
